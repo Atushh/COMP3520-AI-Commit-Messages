@@ -34,10 +34,10 @@ public static int min(int first, int second) {
     return Math.min(first, second);
 }
 public static int square(int value) {
-    return value * value;
+    return multiply(value, value);
 }
 public static int cube(int value) {
-    return value * value * value;
+    return multiply(square(value), value);
 }
 public static boolean isPositive(int value) {
     return value > 0;
