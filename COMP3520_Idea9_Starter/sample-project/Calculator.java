@@ -32,4 +32,7 @@ public static int min(int first, int second) {
 public static int square(int value) {
     return value * value;
 }
+public static int cube(int value) {
+    return value * value * value;
+}
 }
