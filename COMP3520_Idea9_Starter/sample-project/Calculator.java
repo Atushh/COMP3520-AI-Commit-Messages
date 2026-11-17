@@ -59,7 +59,7 @@ public static double celsiusToFahrenheit(double celsius) {
 }
 
 public static boolean isBlank(String value) {
-    return value.trim().isEmpty();
+    return trimWhitespace(value).isEmpty();
 }
 
 public static int countCharacters(String value) {
@@ -92,12 +92,10 @@ public static String trimWhitespace(String value) {
     return value.trim();
 }
 public static int countWords(String value) {
-    String trimmed = value.trim();
-
+    String trimmed = trimWhitespace(value);
     if (trimmed.isEmpty()) {
         return 0;
     }
-
     return trimmed.split("\\s+").length;
 }
 
