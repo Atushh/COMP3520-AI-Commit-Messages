@@ -49,6 +49,12 @@ public static double fahrenheitToCelsius(double fahrenheit) {
     return (fahrenheit - 32.0) * 5.0 / 9.0;
 }
 public static double celsiusToFahrenheit(double celsius) {
+    if (!Double.isFinite(celsius) || celsius < -273.15) {
+        throw new IllegalArgumentException(
+            "Celsius must be finite and at least -273.15"
+        );
+    }
+
     return celsius * 9.0 / 5.0 + 32.0;
 }
 }
