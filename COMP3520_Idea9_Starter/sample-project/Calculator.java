@@ -70,5 +70,17 @@ public static String reverse(String value) {
     return new StringBuilder(value).reverse().toString();
 }
 
+public static int countVowels(String value) {
+    int count = 0;
 
+    for (int i = 0; i < value.length(); i++) {
+        char character = Character.toLowerCase(value.charAt(i));
+
+        if ("aeiou".indexOf(character) >= 0) {
+            count++;
+        }
+    }
+
+    return count;
+}
 }
