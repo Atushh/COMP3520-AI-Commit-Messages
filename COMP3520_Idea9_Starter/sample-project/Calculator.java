@@ -23,4 +23,7 @@ public class Calculator {
 public static int absoluteValue(int value) {
     return Math.abs(value);
 }
+public static int max(int first, int second) {
+    return Math.max(first, second);
+}
 }
