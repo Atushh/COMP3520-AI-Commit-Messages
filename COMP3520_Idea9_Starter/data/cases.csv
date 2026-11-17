@@ -14,18 +14,18 @@ C12,a3a7f192dd92b549f8a8243d1ff1bb840863dd35,Convert Celsius temperatures to Fah
 C13,c5a352ef0b059b9b2c18aaa0e7974c4f36daa2e2,Report an error when the absolute value of the smallest Java integer cannot fit in an int.,Updates absoluteValue to throw ArithmeticException for Integer.MIN_VALUE.,Jimmy
 C14,8ee195f3e8c023e4c61d8d3e80732c89767c4c2d,Reject non-finite Celsius temperatures and temperatures below absolute zero when converting to Fahrenheit.,Throws IllegalArgumentException for non-finite inputs or values below -273.15 degrees Celsius.,Jimmy
 C15,bb80e9f21b19253b9cba4868c1913eed659ef094,Make square and cube reuse the calculator's multiplication method while preserving their results.,Updates square to call multiply and cube to call square and multiply.,Jimmy
-C16,,,,
-C17,,,,
-C18,,,,
-C19,,,,
-C20,,,,
-C21,,,,
-C22,,,,
-C23,,,,
-C24,,,,
-C25,,,,
-C26,,,,
-C27,,,,
-C28,,,,
-C29,,,,
-C30,,,,
+C16,0353158bf59ccae78ce50be9013b862d3277e0d8,Check whether text is empty or contains only ordinary whitespace,Adds isBlank using trim() and isEmpty(),Terrence
+C17,19762263d6eb5bc3eaa49b62b2b69d84cc623ee6,Report a string's length using Java's standard string-length behavior,Adds countCharacters using String.length() to count UTF-16 code units,Terrence
+C18,c40061be7fe94c5378536380ec61ab11622cafd2,Allow callers to reverse the order of characters in a string,Adds reverse using StringBuilder.reverse(),Terrence
+C19,df96eb1f9967aa853122df76fa201f81681b43ad,Count English vowels in a string regardless of letter case,Adds countVowels using a character loop and case-insensitive vowel matching,Terrence
+C20,86ee3ee5d4d0f5e3da7afcadb421c24025a03396,Determine whether a string reads the same forward and backward ignoring letter case,Adds isPalindrome using reverse() and equalsIgnoreCase(),Terrence
+C21,4b6c121acae281fe5a7c3a724040970279ce7131,Remove leading and trailing whitespace from text,Adds trimWhitespace using String.trim(),Terrence
+C22,e665392b75c8f2e5efa6f1580fe11c2382a0398f,Count words separated by whitespace in a string,Adds countWords using trim() and split() with a whitespace pattern,Terrence
+C23,f4b9461161ade5387e4858d52ec5c4a07d2cc620,Capitalize the first character of a string while preserving the remaining text,Adds capitalizeFirst with an empty-string check and Character.toUpperCase(),Terrence,,
+C24,0bd17ba160ac75729739940530b3264eba9488b2,Replace ordinary spaces in text with underscores,Adds spacesToUnderscores using String.replace(),Terrence,,
+C25,6ec2e0a5b69cce41a7d29240741da4ecce967025,Compare two strings without distinguishing uppercase and lowercase letters,Adds equalsIgnoreCase helper using String.equalsIgnoreCase(),Terrence,,
+C26,c8813228aee506e1d690c616134e18feb5d586ae,Check whether a non-null string contains zero characters,Adds isEmpty using String.isEmpty(),Terrence,,
+C27,099603b6023385dedf313761cc2b7d825ece7eae,Allow the empty-string helper to handle null inputs safely,Updates isEmpty to return true for null or empty strings,Terrence,,
+C28,87551dd80337efc94ef87b3d979bd66eda7ad300,Count Unicode characters correctly including supplementary characters,Updates countCharacters to use codePointCount instead of String.length,TerrenceC29 ,,
+C29,3b3df703038acfc384b7f6a9db9b77876bbc8e01,Make the first-character capitalization helper easier to read without changing its behavior,Refactors capitalizeFirst to use named variables for the uppercase first character and remaining text,Terrence,,
+C30,31aa1becd914632b526890825e88f7142bda4003,Reduce duplicate whitespace trimming logic in text helpers,Refactors isBlank and countWords to reuse the existing trimWhitespace method,Terrence,,
