@@ -21,11 +21,11 @@ C19,df96eb1f9967aa853122df76fa201f81681b43ad,Count English vowels in a string re
 C20,86ee3ee5d4d0f5e3da7afcadb421c24025a03396,Determine whether a string reads the same forward and backward ignoring letter case,Adds isPalindrome using reverse() and equalsIgnoreCase(),Terrence
 C21,4b6c121acae281fe5a7c3a724040970279ce7131,Remove leading and trailing whitespace from text,Adds trimWhitespace using String.trim(),Terrence
 C22,e665392b75c8f2e5efa6f1580fe11c2382a0398f,Count words separated by whitespace in a string,Adds countWords using trim() and split() with a whitespace pattern,Terrence
-C23,f4b9461161ade5387e4858d52ec5c4a07d2cc620,Capitalize the first character of a string while preserving the remaining text,Adds capitalizeFirst with an empty-string check and Character.toUpperCase(),Terrence,,
-C24,0bd17ba160ac75729739940530b3264eba9488b2,Replace ordinary spaces in text with underscores,Adds spacesToUnderscores using String.replace(),Terrence,,
-C25,6ec2e0a5b69cce41a7d29240741da4ecce967025,Compare two strings without distinguishing uppercase and lowercase letters,Adds equalsIgnoreCase helper using String.equalsIgnoreCase(),Terrence,,
-C26,c8813228aee506e1d690c616134e18feb5d586ae,Check whether a non-null string contains zero characters,Adds isEmpty using String.isEmpty(),Terrence,,
-C27,099603b6023385dedf313761cc2b7d825ece7eae,Allow the empty-string helper to handle null inputs safely,Updates isEmpty to return true for null or empty strings,Terrence,,
-C28,87551dd80337efc94ef87b3d979bd66eda7ad300,Count Unicode characters correctly including supplementary characters,Updates countCharacters to use codePointCount instead of String.length,TerrenceC29 ,,
-C29,3b3df703038acfc384b7f6a9db9b77876bbc8e01,Make the first-character capitalization helper easier to read without changing its behavior,Refactors capitalizeFirst to use named variables for the uppercase first character and remaining text,Terrence,,
-C30,31aa1becd914632b526890825e88f7142bda4003,Reduce duplicate whitespace trimming logic in text helpers,Refactors isBlank and countWords to reuse the existing trimWhitespace method,Terrence,,
+C23,f4b9461161ade5387e4858d52ec5c4a07d2cc620,Capitalize the first character of a string while preserving the remaining text,Adds capitalizeFirst with an empty-string check and Character.toUpperCase(),Terrence
+C24,0bd17ba160ac75729739940530b3264eba9488b2,Replace ordinary spaces in text with underscores,Adds spacesToUnderscores using String.replace(),Terrence
+C25,6ec2e0a5b69cce41a7d29240741da4ecce967025,Compare two strings without distinguishing uppercase and lowercase letters,Adds equalsIgnoreCase helper using String.equalsIgnoreCase(),Terrence
+C26,c8813228aee506e1d690c616134e18feb5d586ae,Check whether a non-null string contains zero characters,Adds isEmpty using String.isEmpty(),Terrence
+C27,099603b6023385dedf313761cc2b7d825ece7eae,Allow the empty-string helper to handle null inputs safely,Updates isEmpty to return true for null or empty strings,Terrence
+C28,87551dd80337efc94ef87b3d979bd66eda7ad300,Count Unicode characters correctly including supplementary characters,Updates countCharacters to use codePointCount instead of String.length,Terrence
+C29,3b3df703038acfc384b7f6a9db9b77876bbc8e01,Make the first-character capitalization helper easier to read without changing its behavior,Refactors capitalizeFirst to use named variables for the uppercase first character and remaining text,Terrence
+C30,31aa1becd914632b526890825e88f7142bda4003,Reduce duplicate whitespace trimming logic in text helpers,Refactors isBlank and countWords to reuse the existing trimWhitespace method,Terrence
