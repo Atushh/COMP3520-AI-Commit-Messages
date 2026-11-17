@@ -38,4 +38,7 @@ public static int cube(int value) {
 public static boolean isPositive(int value) {
     return value > 0;
 }
+public static boolean isEven(int value) {
+    return value % 2 == 0;
+}
 }
