@@ -109,4 +109,8 @@ public static String capitalizeFirst(String value) {
     return Character.toUpperCase(value.charAt(0)) + value.substring(1);
 }
 
+public static String spacesToUnderscores(String value) {
+    return value.replace(' ', '_');
+}
+
 }
