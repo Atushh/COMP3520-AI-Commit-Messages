@@ -113,4 +113,7 @@ public static String spacesToUnderscores(String value) {
     return value.replace(' ', '_');
 }
 
+public static boolean equalsIgnoreCase(String first, String second) {
+    return first.equalsIgnoreCase(second);
+}
 }
