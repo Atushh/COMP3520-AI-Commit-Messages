@@ -29,4 +29,7 @@ public static int max(int first, int second) {
 public static int min(int first, int second) {
     return Math.min(first, second);
 }
+public static int square(int value) {
+    return value * value;
+}
 }
