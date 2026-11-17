@@ -116,4 +116,9 @@ public static String spacesToUnderscores(String value) {
 public static boolean equalsIgnoreCase(String first, String second) {
     return first.equalsIgnoreCase(second);
 }
+
+public static boolean isEmpty(String value) {
+    return value.isEmpty();
+}
+
 }
