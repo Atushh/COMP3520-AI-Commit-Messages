@@ -20,4 +20,7 @@ public class Calculator {
     public static int remainder(int dividend, int divisor) {
     return dividend % divisor;
 }
+public static int absoluteValue(int value) {
+    return Math.abs(value);
+}
 }
