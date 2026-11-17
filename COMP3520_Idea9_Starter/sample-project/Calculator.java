@@ -106,7 +106,10 @@ public static String capitalizeFirst(String value) {
         return value;
     }
 
-    return Character.toUpperCase(value.charAt(0)) + value.substring(1);
+    char uppercaseFirst = Character.toUpperCase(value.charAt(0));
+    String remainingText = value.substring(1);
+
+    return uppercaseFirst + remainingText;
 }
 
 public static String spacesToUnderscores(String value) {
