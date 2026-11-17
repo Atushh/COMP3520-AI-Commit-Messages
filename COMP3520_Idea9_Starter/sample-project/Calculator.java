@@ -17,4 +17,7 @@ public class Calculator {
         }
         return dividend / divisor;
     }
+    public static int remainder(int dividend, int divisor) {
+    return dividend % divisor;
+}
 }
