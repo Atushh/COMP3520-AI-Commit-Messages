@@ -35,4 +35,7 @@ public static int square(int value) {
 public static int cube(int value) {
     return value * value * value;
 }
+public static boolean isPositive(int value) {
+    return value > 0;
+}
 }
