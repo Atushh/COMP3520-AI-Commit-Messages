@@ -1,0 +1,20 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 148f345..2c75841 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -34,10 +34,10 @@ public static int min(int first, int second) {
+     return Math.min(first, second);
+ }
+ public static int square(int value) {
+-    return value * value;
++    return multiply(value, value);
+ }
+ public static int cube(int value) {
+-    return value * value * value;
++    return multiply(square(value), value);
+ }
+ public static boolean isPositive(int value) {
+     return value > 0;

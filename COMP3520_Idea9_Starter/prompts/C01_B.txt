@@ -1,0 +1,24 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Issue/task context:
+Add a multiply method that accepts two integers and returns their product
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 4c635b3..198f52e 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -1,4 +1,3 @@
+-// Small example project: make your own purposeful modifications across commits.
+ public class Calculator {
+     public static int add(int a, int b) {
+         return a + b;
+@@ -7,4 +6,8 @@ public class Calculator {
+     public static int subtract(int a, int b) {
+         return a - b;
+     }
++
++    public static int multiply(int a, int b) {
++        return a * b;
++    }
+ }

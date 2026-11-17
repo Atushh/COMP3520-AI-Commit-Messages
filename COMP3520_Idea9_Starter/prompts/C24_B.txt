@@ -1,0 +1,20 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Issue/task context:
+Replace ordinary spaces in text with underscores
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 3fedd31..5f12806 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -109,4 +109,8 @@ public static String capitalizeFirst(String value) {
+     return Character.toUpperCase(value.charAt(0)) + value.substring(1);
+ }
+ 
++public static String spacesToUnderscores(String value) {
++    return value.replace(' ', '_');
++}
++
+ }
+\ No newline at end of file

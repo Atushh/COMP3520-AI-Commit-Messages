@@ -1,0 +1,21 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 9c2e9ba..148f345 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -49,6 +49,12 @@ public static double fahrenheitToCelsius(double fahrenheit) {
+     return (fahrenheit - 32.0) * 5.0 / 9.0;
+ }
+ public static double celsiusToFahrenheit(double celsius) {
++    if (!Double.isFinite(celsius) || celsius < -273.15) {
++        throw new IllegalArgumentException(
++            "Celsius must be finite and at least -273.15"
++        );
++    }
++
+     return celsius * 9.0 / 5.0 + 32.0;
+ }
+ }
+\ No newline at end of file

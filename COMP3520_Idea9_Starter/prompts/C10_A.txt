@@ -1,0 +1,16 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 2ce3f72..1344b95 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -38,4 +38,7 @@ public static int cube(int value) {
+ public static boolean isPositive(int value) {
+     return value > 0;
+ }
++public static boolean isEven(int value) {
++    return value % 2 == 0;
++}
+ }
+\ No newline at end of file

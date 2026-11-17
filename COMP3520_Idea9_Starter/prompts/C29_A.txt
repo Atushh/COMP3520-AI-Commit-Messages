@@ -1,0 +1,19 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 420b800..10da024 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -106,7 +106,10 @@ public static String capitalizeFirst(String value) {
+         return value;
+     }
+ 
+-    return Character.toUpperCase(value.charAt(0)) + value.substring(1);
++    char uppercaseFirst = Character.toUpperCase(value.charAt(0));
++    String remainingText = value.substring(1);
++
++    return uppercaseFirst + remainingText;
+ }
+ 
+ public static String spacesToUnderscores(String value) {

@@ -1,0 +1,21 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Issue/task context:
+Determine whether a string reads the same forward and backward ignoring letter case
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index e60d845..a609899 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -83,4 +83,9 @@ public static int countVowels(String value) {
+ 
+     return count;
+ }
++
++public static boolean isPalindrome(String value) {
++    return value.equalsIgnoreCase(reverse(value));
++}
++
+ }
+\ No newline at end of file

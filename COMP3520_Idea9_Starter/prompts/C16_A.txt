@@ -1,0 +1,18 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 2c75841..dc1db7e 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -57,4 +57,9 @@ public static double celsiusToFahrenheit(double celsius) {
+ 
+     return celsius * 9.0 / 5.0 + 32.0;
+ }
++
++public static boolean isBlank(String value) {
++    return value.trim().isEmpty();
++}
++
+ }
+\ No newline at end of file

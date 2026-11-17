@@ -1,0 +1,25 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Issue/task context:
+Capitalize the first character of a string while preserving the remaining text
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index a198395..3fedd31 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -100,4 +100,13 @@ public static int countWords(String value) {
+ 
+     return trimmed.split("\\s+").length;
+ }
++
++public static String capitalizeFirst(String value) {
++    if (value.isEmpty()) {
++        return value;
++    }
++
++    return Character.toUpperCase(value.charAt(0)) + value.substring(1);
++}
++
+ }
+\ No newline at end of file

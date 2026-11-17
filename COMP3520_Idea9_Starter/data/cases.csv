@@ -14,7 +14,7 @@ C12,a3a7f192dd92b549f8a8243d1ff1bb840863dd35,Convert Celsius temperatures to Fah
 C13,c5a352ef0b059b9b2c18aaa0e7974c4f36daa2e2,Report an error when the absolute value of the smallest Java integer cannot fit in an int.,Updates absoluteValue to throw ArithmeticException for Integer.MIN_VALUE.,Jimmy
 C14,8ee195f3e8c023e4c61d8d3e80732c89767c4c2d,Reject non-finite Celsius temperatures and temperatures below absolute zero when converting to Fahrenheit.,Throws IllegalArgumentException for non-finite inputs or values below -273.15 degrees Celsius.,Jimmy
 C15,bb80e9f21b19253b9cba4868c1913eed659ef094,Make square and cube reuse the calculator's multiplication method while preserving their results.,Updates square to call multiply and cube to call square and multiply.,Jimmy
-C16,0353158bf59ccae78ce50be9013b862d3277e0d8,Check whether text is empty or contains only ordinary whitespace,Adds isBlank using trim() and isEmpty(),Terrence
+C16,0353158b5f9ccae78ce50be9013b862d3277e0d8,Check whether text is empty or contains only ordinary whitespace,Adds isBlank using trim() and isEmpty(),Terrence
 C17,19762263d6eb5bc3eaa49b62b2b69d84cc623ee6,Report a string's length using Java's standard string-length behavior,Adds countCharacters using String.length() to count UTF-16 code units,Terrence
 C18,c40061be7fe94c5378536380ec61ab11622cafd2,Allow callers to reverse the order of characters in a string,Adds reverse using StringBuilder.reverse(),Terrence
 C19,df96eb1f9967aa853122df76fa201f81681b43ad,Count English vowels in a string regardless of letter case,Adds countVowels using a character loop and case-insensitive vowel matching,Terrence

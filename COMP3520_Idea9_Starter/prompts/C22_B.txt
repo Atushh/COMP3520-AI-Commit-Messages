@@ -1,0 +1,25 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Issue/task context:
+Count words separated by whitespace in a string
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index f6885a2..a198395 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -91,5 +91,13 @@ public static boolean isPalindrome(String value) {
+ public static String trimWhitespace(String value) {
+     return value.trim();
+ }
++public static int countWords(String value) {
++    String trimmed = value.trim();
+ 
++    if (trimmed.isEmpty()) {
++        return 0;
++    }
++
++    return trimmed.split("\\s+").length;
++}
+ }
+\ No newline at end of file

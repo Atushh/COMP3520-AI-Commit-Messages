@@ -1,0 +1,19 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Issue/task context:
+Let callers get the absolute value of an integer.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index f44dc99..fe332ea 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -20,4 +20,7 @@ public class Calculator {
+     public static int remainder(int dividend, int divisor) {
+     return dividend % divisor;
+ }
++public static int absoluteValue(int value) {
++    return Math.abs(value);
++}
+ }
+\ No newline at end of file

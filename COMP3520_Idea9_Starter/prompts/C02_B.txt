@@ -1,0 +1,24 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Issue/task context:
+Add integer division and give callers a clear error if they try to divide by zero.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 198f52e..f80e68c 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -10,4 +10,11 @@ public class Calculator {
+     public static int multiply(int a, int b) {
+         return a * b;
+     }
+-}
++
++    public static int divide(int dividend, int divisor) {
++        if (divisor == 0) {
++            throw new IllegalArgumentException("Divisor cannot be zero");
++        }
++        return dividend / divisor;
++    }
++}
+\ No newline at end of file

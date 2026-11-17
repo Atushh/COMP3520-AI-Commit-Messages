@@ -1,0 +1,19 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index b35b428..fdb4a7f 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -65,4 +65,10 @@ public static boolean isBlank(String value) {
+ public static int countCharacters(String value) {
+     return value.length();
+ }
++
++public static String reverse(String value) {
++    return new StringBuilder(value).reverse().toString();
++}
++
++
+ }
+\ No newline at end of file

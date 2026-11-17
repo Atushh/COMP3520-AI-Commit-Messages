@@ -1,0 +1,16 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index fe332ea..3a36230 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -23,4 +23,7 @@ public class Calculator {
+ public static int absoluteValue(int value) {
+     return Math.abs(value);
+ }
++public static int max(int first, int second) {
++    return Math.max(first, second);
++}
+ }
+\ No newline at end of file

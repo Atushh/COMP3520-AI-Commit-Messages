@@ -1,0 +1,16 @@
+Write one concise, factual Git commit message (subject line only, maximum 72 characters) for the code change shown below. Do not invent changes or motivations. Return only the commit message.
+
+Git diff:
+diff --git a/COMP3520_Idea9_Starter/sample-project/Calculator.java b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+index 5f12806..e34c7fb 100644
+--- a/COMP3520_Idea9_Starter/sample-project/Calculator.java
++++ b/COMP3520_Idea9_Starter/sample-project/Calculator.java
+@@ -113,4 +113,7 @@ public static String spacesToUnderscores(String value) {
+     return value.replace(' ', '_');
+ }
+ 
++public static boolean equalsIgnoreCase(String first, String second) {
++    return first.equalsIgnoreCase(second);
++}
+ }
+\ No newline at end of file
