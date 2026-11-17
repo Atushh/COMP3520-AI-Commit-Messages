@@ -1,19 +1,19 @@
 case_id,commit_hash,issue_context,expected_changes,author
-C01,,,,
-C02,,,,
-C03,,,,
-C04,,,,
-C05,,,,
-C06,,,,
-C07,,,,
-C08,,,,
-C09,,,,
-C10,,,,
-C11,,,,
-C12,,,,
-C13,,,,
-C14,,,,
-C15,,,,
+C01,b6fa787cec9c312b32cfa65674e357fcc51d0773,Add a multiply method that accepts two integers and returns their product,New method performing integer multiplication,Jimmy
+C02,4e7f0e600d74a1619fd4a6bfb2c60fcd17343326 ,Add integer division and give callers a clear error if they try to divide by zero.,Returns an integer quotient and throws IllegalArgumentException for a zero divisor.,Jimmy
+C03,c668c53f4acc3c12dd965c82990b6f35d4437261 ,Let callers find the remainder after dividing one integer by another.,Adds an integer remainder method using the % operator.,Jimmy
+C04,17edf8bf15ede06f621c24c5831ad721f2dff36f,Let callers get the absolute value of an integer.,Adds an absolute-value method that delegates to Math.abs.,Jimmy
+C05,15586177205869b45f463095eeffa76b12ce4597,Let callers find the larger of two integers.,Adds a maximum method using Math.max.,Jimmy
+C06,eae014d470a3ea07e82c486ccbe9f82ec0c18ff5,Let callers find the smaller of two integers.,Adds a minimum method using Math.min.,Jimmy
+C07,3fefb2abe8b62717c27ad4c4c58d11fec602a0ba,Let callers calculate the square of an integer.,Adds a square method that multiplies an integer by itself.,Jimmy
+C08,5ab047b575f6a7ca818fa63755e26e1a77f168ef,Let callers calculate the cube of an integer.,Adds a method that returns the integer raised to the third power.,Jimmy
+C09,ced4203539668aa0ecc04341f9015bfe64cb770b,Check whether an integer is strictly greater than zero.,Adds a boolean method that returns true only for integers greater than zero.,Jimmy
+C10,4f57f759e8b2bc63efaea8e29b2c6de772313e29,Check whether an integer is evenly divisible by two. Include negative numbers and zero.,Adds a boolean method that checks whether division by two leaves a remainder of zero.,Jimmy
+C11,ac8e56084ee00e564eee3fae05df2bdc140afa1f,Convert Fahrenheit temperatures to Celsius while keeping decimal precision.,Adds a double method that subtracts 32 and scales by five ninths.,Jimmy
+C12,a3a7f192dd92b549f8a8243d1ff1bb840863dd35,Convert Celsius temperatures to Fahrenheit while keeping decimal precision.,Adds a double method that scales by nine fifths and adds 32.,Jimmy
+C13,c5a352ef0b059b9b2c18aaa0e7974c4f36daa2e2,Report an error when the absolute value of the smallest Java integer cannot fit in an int.,Updates absoluteValue to throw ArithmeticException for Integer.MIN_VALUE.,Jimmy
+C14,8ee195f3e8c023e4c61d8d3e80732c89767c4c2d,Reject non-finite Celsius temperatures and temperatures below absolute zero when converting to Fahrenheit.,Throws IllegalArgumentException for non-finite inputs or values below -273.15 degrees Celsius.,Jimmy
+C15,bb80e9f21b19253b9cba4868c1913eed659ef094,Make square and cube reuse the calculator's multiplication method while preserving their results.,Updates square to call multiply and cube to call square and multiply.,Jimmy
 C16,,,,
 C17,,,,
 C18,,,,
