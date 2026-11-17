@@ -41,4 +41,7 @@ public static boolean isPositive(int value) {
 public static boolean isEven(int value) {
     return value % 2 == 0;
 }
+public static double fahrenheitToCelsius(double fahrenheit) {
+    return (fahrenheit - 32.0) * 5.0 / 9.0;
+}
 }
