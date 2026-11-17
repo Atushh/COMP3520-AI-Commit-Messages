@@ -26,4 +26,7 @@ public static int absoluteValue(int value) {
 public static int max(int first, int second) {
     return Math.max(first, second);
 }
+public static int min(int first, int second) {
+    return Math.min(first, second);
+}
 }
