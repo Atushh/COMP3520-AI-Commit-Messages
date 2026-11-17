@@ -118,7 +118,7 @@ public static boolean equalsIgnoreCase(String first, String second) {
 }
 
 public static boolean isEmpty(String value) {
-    return value.isEmpty();
+     return value == null || value.isEmpty();
 }
 
 }
