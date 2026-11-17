@@ -62,4 +62,7 @@ public static boolean isBlank(String value) {
     return value.trim().isEmpty();
 }
 
+public static int countCharacters(String value) {
+    return value.length();
+}
 }
