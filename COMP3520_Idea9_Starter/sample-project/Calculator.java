@@ -21,6 +21,10 @@ public class Calculator {
     return dividend % divisor;
 }
 public static int absoluteValue(int value) {
+    if (value == Integer.MIN_VALUE) {
+        throw new ArithmeticException("Absolute value exceeds int range");
+    }
+
     return Math.abs(value);
 }
 public static int max(int first, int second) {
