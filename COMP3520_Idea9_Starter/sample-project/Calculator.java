@@ -83,4 +83,9 @@ public static int countVowels(String value) {
 
     return count;
 }
+
+public static boolean isPalindrome(String value) {
+    return value.equalsIgnoreCase(reverse(value));
+}
+
 }
