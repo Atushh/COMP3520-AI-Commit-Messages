@@ -88,4 +88,8 @@ public static boolean isPalindrome(String value) {
     return value.equalsIgnoreCase(reverse(value));
 }
 
+public static String trimWhitespace(String value) {
+    return value.trim();
+}
+
 }
