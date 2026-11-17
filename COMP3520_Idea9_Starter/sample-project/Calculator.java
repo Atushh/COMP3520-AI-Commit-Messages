@@ -65,4 +65,10 @@ public static boolean isBlank(String value) {
 public static int countCharacters(String value) {
     return value.length();
 }
+
+public static String reverse(String value) {
+    return new StringBuilder(value).reverse().toString();
+}
+
+
 }
