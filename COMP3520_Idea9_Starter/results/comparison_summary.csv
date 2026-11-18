@@ -1,0 +1,5 @@
+metric,n_paired_cases,mean_A,mean_B,mean_B_minus_A
+accuracy_0to2,30,2,2,0
+completeness_0to2,30,1.7,1.833,0.133
+unsupported_claims_count,30,0,0,0
+omitted_changes_count,30,0.333,0.167,-0.167

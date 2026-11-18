@@ -1,0 +1,61 @@
+message_id,accuracy_0to2,completeness_0to2,unsupported_claims_count,omitted_changes_count,notes
+01b3d6aee252,2,2,0,0,
+05ef44148274,2,2,0,0,
+06894b8d2b61,2,2,0,0,
+0926843e2284,2,2,0,0,
+112232af0007,2,2,0,0,The diff also removes the starter comment.
+127672359f31,2,1,0,1,Omits that the count is limited to the five English vowels.
+16a22db3496a,2,2,0,0,
+18765c6990fe,2,2,0,0,
+1de63211a7bf,2,2,0,0,
+20ee8774abfa,2,2,0,0,
+247a751601ae,2,2,0,0,
+275f9efbebf1,2,2,0,0,
+292f4ada85ab,2,1,0,1,Omits that cube also calls square.
+2a22c7737f48,2,2,0,0,
+2ab32049578e,2,2,0,0,
+2afd78a922eb,2,2,0,0,
+3249a2ee216f,2,2,0,0,
+34af5aa88da9,2,2,0,0,
+353f2ed16666,2,2,0,0,
+36392e189099,2,1,0,2,Omits whitespace as the separator and the zero count for blank text.
+3b98ce8272a9,2,1,0,1,Omits the empty-input guard.
+415e42667e0f,2,2,0,0,
+54787f9df831,2,1,0,1,Omits the direct multiply call inside cube.
+551cc8662da7,2,2,0,0,
+56ea785b5fc8,2,2,0,0,
+5b732c5a18e2,2,2,0,0,
+63d52b0a6833,2,2,0,0,
+645a5812313d,2,2,0,0,
+75a5f31e1808,2,1,0,1,Omits double-precision conversion.
+77ede55da14f,2,1,0,1,Omits which expressions were extracted into local variables.
+7ab7c3d5ab76,2,2,0,0,
+86cc83d06ccb,2,2,0,0,
+8ef6e85362c5,2,1,0,1,Omits the empty-input guard.
+a00236fd0ae2,2,2,0,0,
+a0f5032ac62d,2,2,0,0,
+a252e93a7fcc,2,1,0,1,Omits which expressions were extracted into local variables.
+a51055db8b1d,2,2,0,0,
+b0d0d07cb49a,2,1,0,1,Omits the rule for empty or whitespace-only text.
+b298baa1c046,2,2,0,0,
+b4bf4c4ddaf9,2,2,0,0,
+ba93cb250e20,2,2,0,0,
+bd72145a9183,2,2,0,0,
+be279c316cfe,2,2,0,0,
+c46bb4afc276,2,1,0,1,Omits the String.length convention for counting UTF-16 code units.
+c7943b9381e4,2,2,0,0,Covers the functional change. Starter-comment removal is incidental.
+c8631734b700,2,2,0,0,
+cc6b7183174d,2,1,0,1,Omits the zero count for blank text.
+d12aa4498711,2,1,0,1,Omits that the count is limited to the five English vowels.
+d33272e09215,2,2,0,0,
+d56e325ebfb9,2,2,0,0,
+d64002394c26,2,2,0,0,
+dac7257c2256,2,2,0,0,
+e18ccab48267,2,2,0,0,
+e1cd19cd48fd,2,2,0,0,
+e3b5dc15113b,2,2,0,0,
+e6b4236a0746,2,2,0,0,
+ea3c86c4902c,2,2,0,0,
+f17e52ab5e97,2,2,0,0,
+fdd5fc99f0aa,2,1,0,1,Omits double-precision conversion.
+ff1740c99695,2,2,0,0,

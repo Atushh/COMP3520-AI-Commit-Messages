@@ -1,0 +1,61 @@
+message_id,case_id,generated_message
+01b3d6aee252,C24,Add Calculator method to replace spaces with underscores
+05ef44148274,C02,Add integer division with a zero-divisor check to Calculator
+06894b8d2b61,C28,Count Unicode code points in Calculator.countCharacters
+0926843e2284,C21,Add Calculator method to trim leading and trailing whitespace
+112232af0007,C01,Add Calculator multiply method and remove starter comment
+127672359f31,C19,Add case-insensitive countVowels method to Calculator
+16a22db3496a,C11,Add Fahrenheit-to-Celsius conversion using doubles
+18765c6990fe,C05,Add max method for two integers to Calculator
+1de63211a7bf,C24,Add spacesToUnderscores method to Calculator
+20ee8774abfa,C18,Add Calculator.reverse to reverse characters in a string
+247a751601ae,C17,Add countCharacters method using String.length()
+275f9efbebf1,C08,Add cube method to Calculator
+292f4ada85ab,C15,Reuse multiply in Calculator.square and Calculator.cube
+2a22c7737f48,C26,Add Calculator.isEmpty to check for empty strings
+2ab32049578e,C13,Throw ArithmeticException for absolute value of Integer.MIN_VALUE
+2afd78a922eb,C07,Add square method to Calculator
+3249a2ee216f,C20,Add case-insensitive palindrome check to Calculator
+34af5aa88da9,C09,Add isPositive method to Calculator
+353f2ed16666,C03,Add Calculator.remainder for integer division
+36392e189099,C22,Add countWords method to Calculator
+3b98ce8272a9,C23,Add capitalizeFirst to uppercase only the first character
+415e42667e0f,C08,Add Calculator.cube method for integers
+54787f9df831,C15,Reuse multiply in square and square in cube
+551cc8662da7,C10,Add Calculator.isEven to check integer divisibility by two
+56ea785b5fc8,C27,Treat null as empty in Calculator.isEmpty
+5b732c5a18e2,C02,Add integer division with a clear error for zero divisors
+63d52b0a6833,C14,Reject non-finite and below-absolute-zero Celsius inputs
+645a5812313d,C10,Add isEven method to Calculator
+75a5f31e1808,C12,Add Celsius-to-Fahrenheit conversion to Calculator
+77ede55da14f,C29,Extract local variables in capitalizeFirst
+7ab7c3d5ab76,C30,Reuse trimWhitespace in isBlank and countWords
+86cc83d06ccb,C26,Add isEmpty method to Calculator
+8ef6e85362c5,C23,Add capitalizeFirst method to Calculator
+a00236fd0ae2,C25,Add equalsIgnoreCase method to Calculator
+a0f5032ac62d,C07,Add Calculator.square method for integers
+a252e93a7fcc,C29,Extract local variables in capitalizeFirst
+a51055db8b1d,C30,Reuse trimWhitespace in isBlank and countWords
+b0d0d07cb49a,C16,Add isBlank method to Calculator
+b298baa1c046,C25,Add case-insensitive string comparison to Calculator
+b4bf4c4ddaf9,C06,Add min method to Calculator
+ba93cb250e20,C04,Add Calculator.absoluteValue for integers
+bd72145a9183,C21,Add trimWhitespace method to Calculator
+be279c316cfe,C09,Add Calculator.isPositive to check if an integer is greater than zero
+c46bb4afc276,C17,Add countCharacters method to Calculator
+c7943b9381e4,C01,Add Calculator.multiply for two integers
+c8631734b700,C16,Add Calculator.isBlank to check for empty or whitespace-only text
+cc6b7183174d,C22,Add Calculator method to count whitespace-separated words
+d12aa4498711,C19,Add case-insensitive vowel counting method
+d33272e09215,C05,Add Calculator.max to return the larger of two integers
+d56e325ebfb9,C28,Count Unicode code points in countCharacters
+d64002394c26,C12,Add Celsius-to-Fahrenheit conversion using doubles
+dac7257c2256,C13,Throw ArithmeticException for Integer.MIN_VALUE in absoluteValue
+e18ccab48267,C20,Add case-insensitive palindrome check
+e1cd19cd48fd,C27,Treat null as empty in isEmpty
+e3b5dc15113b,C04,Add absoluteValue method to Calculator
+e6b4236a0746,C14,Reject non-finite and below-absolute-zero Celsius inputs
+ea3c86c4902c,C06,Add Calculator.min to return the smaller of two integers
+f17e52ab5e97,C03,Add integer remainder method to Calculator
+fdd5fc99f0aa,C11,Add Fahrenheit-to-Celsius conversion to Calculator
+ff1740c99695,C18,Add reverse method to Calculator
